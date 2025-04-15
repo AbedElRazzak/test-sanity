@@ -15,6 +15,6 @@ export default defineCliConfig({
     projectId,
     dataset,
   },
-  studioHost: process.env.SANITY_STUDIO_STUDIO_HOST || 'https://www.abed-studio.vercel.app/', // Visit https://www.sanity.io/docs/environment-variables to learn more about using environment variables for local & production.
+  studioHost: process.env.SANITY_STUDIO_STUDIO_HOST || 'https://studio-abed.vercel.app', // Visit https://www.sanity.io/docs/environment-variables to learn more about using environment variables for local & production.
   autoUpdates: true,
 })
