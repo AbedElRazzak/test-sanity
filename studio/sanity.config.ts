@@ -18,8 +18,10 @@ import {
 import {assist} from '@sanity/assist'
 
 // Environment variables for project configuration
-const projectId = process.env.SANITY_STUDIO_PROJECT_ID || '6iefog8i'
-const dataset = process.env.SANITY_STUDIO_DATASET || 'production'
+// const projectId = process.env.SANITY_STUDIO_PROJECT_ID || '6iefog8i'
+// const dataset = process.env.SANITY_STUDIO_DATASET || 'production'
+const projectId = '6iefog8i'
+const dataset = 'production'
 
 // URL for preview functionality, defaults to localhost:3000 if not set
 // const SANITY_STUDIO_PREVIEW_URL = process.env.SANITY_STUDIO_PREVIEW_URL || 'http://localhost:3000'
